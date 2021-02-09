@@ -1,0 +1,19 @@
+# codechef
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int c;
+	float b;
+	std::cin >> c;
+	std::cin >> b;
+	if((c%5==0)&&(c+0.50<=b)){
+	    b=(b-c)-0.50;
+	    std::cout<<setprecision(2)<<fixed<<b;
+	}
+	else{
+	    std::cout<<b;
+	}
+	return 0;
+}
